@@ -9,9 +9,10 @@ Example: Given an array [1, 2, 4, 5]. The output should be [2, 4, 8, 10]
 // Solución ejercicio 2 
 const numeros = [1,2,4,5]; 
 const doubles = numeros.map(x => x*2); 
-console.log (doubles); 
+document.getElementById("parrafo1").innerHTML = "números iniciales: " + numeros.join(" "); 
 
-
+document.getElementById("parrafo2").innerHTML = "números dobles: " + doubles.join(" "); 
 /* Respuesta: 
  *      2, 4, 8, 10
  */
+
